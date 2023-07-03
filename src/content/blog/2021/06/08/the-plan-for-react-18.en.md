@@ -1,27 +1,26 @@
 ---
-title: "React 18 发布计划"
+title: "The Plan for React 18"
 ---
 
-2021 年 7 月 8 日 2021，由 [Andrew Clark](https://twitter.com/acdlite)，[Brian Vaughn](https://github.com/bvaughn)， [Christine Abernathy](https://twitter.com/abernathyca)， [Dan Abramov](https://twitter.com/dan_abramov)，[Rachel Nabors](https://twitter.com/rachelnabors)，[Rick Hanlon](https://twitter.com/rickhanlonii)，[Sebastian Markbåge](https://twitter.com/sebmarkbage)，和 [Seth Webster](https://twitter.com/sethwebster) 发布。
+June 8, 2021 by [Andrew Clark](https://twitter.com/acdlite), [Brian Vaughn](https://github.com/bvaughn), [Christine Abernathy](https://twitter.com/abernathyca), [Dan Abramov](https://twitter.com/dan_abramov), [Rachel Nabors](https://twitter.com/rachelnabors), [Rick Hanlon](https://twitter.com/rickhanlonii), [Sebastian Markbåge](https://twitter.com/sebmarkbage), and [Seth Webster](https://twitter.com/sethwebster)
 
 ---
 
 <Intro>
 
-React 团队非常激动地想要分享一些更新：
+The React team is excited to share a few updates:
 
-1. 我们已经开始推进 React 18 的更新，也正是我们的下一个主要版本。
-2. 我们已经创建了一些工作组，筹备 React 18 新功能在社区内逐步推广的相关工作。
-3. 我们已经发布了一个 React 18 Alpha 版本，以便于一些库的作者们能够测试并反馈。
+1. We’ve started work on the React 18 release, which will be our next major version.
+2. We’ve created a Working Group to prepare the community for gradual adoption of new features in React 18.
+3. We’ve published a React 18 Alpha so that library authors can try it and provide feedback.
 
-这些更新主要针对于第三方库的维护者们。如果你正在学习，教授或者使用 React 来构建面向用户的应用程序，你可以忽略这篇文章。但是如果你对此感到好奇，我们也非常欢迎你关注 React 18 工作组中的讨论。
 These updates are primarily aimed at maintainers of third-party libraries. If you’re learning, teaching, or using React to build user-facing applications, you can safely ignore this post. But you are welcome to follow the discussions in the React 18 Working Group if you're curious!
 
 ---
 
 </Intro>
 
-## React 18 带来了什么 {/*whats-coming-in-react-18*/}
+## What’s coming in React 18 {/*whats-coming-in-react-18*/}
 
 When it’s released, React 18 will include out-of-the-box improvements (like [automatic batching](https://github.com/reactwg/react-18/discussions/21)), new APIs (like [`startTransition`](https://github.com/reactwg/react-18/discussions/41)), and a [new streaming server renderer](https://github.com/reactwg/react-18/discussions/37) with built-in support for `React.lazy`.
 
